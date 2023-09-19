@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+	<title>Frontend Mentor | Interactive rating component</title>
+	<!-- stylesheets -->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="wrap">
+		<main class="mainArea">
+			<div class="ratingBox">
+				<div class="ratingContainer">
+					<div class="ratingIcon">
+						<img src="images/icon-star.svg" alt="">
+					</div>
+					<div class="ratingBody">
+						<h1 class="ratingTtl">How did we do?</h1>
+						<p class="ratingDesc">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+						<ul class="ratingList">
+							<li><a href="#" class="ratingBtn">1</a></li>
+							<li><a href="#" class="ratingBtn">2</a></li>
+							<li><a href="#" class="ratingBtn">3</a></li>
+							<li><a href="#" class="ratingBtn">4</a></li>
+							<li><a href="#" class="ratingBtn">5</a></li>
+						</ul>
+					</div>
+					<div class="ratingFooter">
+						<a href="#" class="btn submitBtn">Submit</a>
+					</div>
+				</div>
+				<div class="resultContainer hide">
+					<div class="resultThumb">
+						<img src="images/illustration-thank-you.svg" alt="">
+					</div>
+					<div class="resultBody">
+						<div class="resultContent">
+							<p class="resultTxt">You selected <span class="ratingNum"></span> out of 5</p>
+						</div>
+						<h2 class="resultTtl">Thank you!</h2>
+						<p class="resultDesc">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+					</div>
+				</div>
+			</div>
+		</main>
+		<!-- end of mainArea -->
+		<!-- <footer class="footerArea">
+			<p class="attribution">
+				Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+				Coded by <a href="#">James Albert Salva</a>.
+			</p>
+		</footer> -->
+		<!-- end of footerArea -->
+	</div>
+
+	<!-- scripts -->
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
