@@ -58,7 +58,6 @@ body {
 }
 .ratingList li {
 	display: inline;
-	width: calc((100% - 80px) / 5);
 }
 .ratingList li:not(:last-child) {
 	margin-right: 20px;
@@ -166,8 +165,12 @@ body {
         display: none;
     }
 	.ratingBox {
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		justify-content: center;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
 		margin-top: 195px;
 	}
 	.wrap {
@@ -204,6 +207,9 @@ body {
 		padding: 17px 15px 14px;
 		letter-spacing: 2.1px;
 	}
+	.ratingList li {
+		width: calc((100% - 80px) / 5);
+	}
 }
 /* SP styles */
 @media screen and (max-width: 767px) {
@@ -211,6 +217,12 @@ body {
         display: none;
     }
 	.mainArea {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
 		margin: 154px 24px 0;
 	}
 	.ratingContainer,
@@ -240,11 +252,10 @@ body {
 		font-size: 14px;
 	}
 	.ratingBtn {
-		width: 40px;
-		height: 44px;
-	}
-	.ratingList li a {
-		padding-top: 6px;
+		width: 100%;
+		padding: 15px 19px 13px;
+		justify-content: center;
+		align-items: center;
 	}
 	.ratingBody {
 		margin-bottom: 23px;
@@ -252,5 +263,8 @@ body {
 	.submitBtn {
 		padding: 18px 15px 13px;
 		letter-spacing: 1.6px;
+	}
+	.ratingList li {
+		width: calc((100% - 80px) / 5);
 	}
 }
