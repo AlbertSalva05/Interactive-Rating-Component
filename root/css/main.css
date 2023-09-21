@@ -168,14 +168,14 @@ body {
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
+		margin-top: 195px;
 		-webkit-box-pack: center;
 		    -ms-flex-pack: center;
 		        justify-content: center;
-		margin-top: 195px;
 	}
 	.wrap {
-		margin: 0 auto;
 		max-width: 1110px;
+		margin: 0 auto;
 	}
 	.ratingContainer,
 	.resultContainer {
@@ -220,10 +220,10 @@ body {
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
+		margin: 154px 24px 0;
 		-webkit-box-pack: center;
 		    -ms-flex-pack: center;
 		        justify-content: center;
-		margin: 154px 24px 0;
 	}
 	.ratingContainer,
 	.resultContainer {
